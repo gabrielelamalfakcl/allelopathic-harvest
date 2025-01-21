@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Define the base directory where the policy folders are located
-base_dir="/home/gabriele/1.resurrection/poetry-resurrection/al_harvest"
+base_dir="./"
 
 # Define the directories containing the scripts
 script_dirs=(
-  /home/gabriele/1.resurrection/poetry-resurrection/al_harvest/[Dual-Policy]PPO_DP
-  /home/gabriele/1.resurrection/poetry-resurrection/al_harvest/[Dual-Policy]PPO_CSP
-  /home/gabriele/1.resurrection/poetry-resurrection/al_harvest/[Dual-Policy]PPO_COUNTFAIR
+  ./PPO_DP
+  ./PPO_CSP
+  ./PPO_COUNTFAIR
 )
 
 # Define CUDA device management

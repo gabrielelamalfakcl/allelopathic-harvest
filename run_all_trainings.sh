@@ -2,9 +2,9 @@
 
 # Define directories where the main script is located
 script_dirs=(
-  ./[Dual-Policy]PPO_DP
-  #./[Dual-Policy]PPO_CSP
-  #./[Dual-Policy]PPO_COUNTFAIR
+  ./PPO_DP
+  #./PPO_CSP
+  #./PPO_COUNTFAIR
 )
 
 # Define arrays of alpha and beta values

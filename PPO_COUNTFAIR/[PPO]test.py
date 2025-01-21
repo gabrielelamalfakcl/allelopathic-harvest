@@ -234,13 +234,12 @@ def test_agents(ppo_agent_non_sensitive, ppo_agent_sensitive, config):
 
 if __name__ == '__main__':
     # Load AgentPPO.py classes from classic PPO and counterfactual fairness PPO
-    # classic_ppo_agent_path = '/home/gabriele/1.resurrection/poetry-resurrection/al_harvest/[Dual-Policy]PPO/PPOAgent.py'
     """
     We need to test in two separate games (2 run_games) the simulation. 
     Game 1 with agents without protected attribute.
     Game 2 with agents with protected attribute.
     """
-    cf_ppo_agent_path = '/home/gabriele/1.resurrection/poetry-resurrection/al_harvest/[Dual-Policy]PPO_COUNTFAIR/PPOAgentCOUNTF.py'
+    cf_ppo_agent_path = './PPO_COUNTFAIR/PPOAgentCOUNTF.py'
 
     # # Load the classic PPOAgent class from the classic PPO path
     # spec_classic = importlib.util.spec_from_file_location("ClassicPPOAgent", classic_ppo_agent_path)
